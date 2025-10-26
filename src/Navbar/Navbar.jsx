@@ -8,7 +8,7 @@ const Navbar = () => {
     "text-white text-lg px-4 py-2 rounded-md block transition-all cursor-pointer";
 
   const gradientHover =
-    "hover:bg-gradient-to-r hover:from-[#5DFFFF] hover:to-[#AE0CA7]";
+    "hover:bg-gradient-to-r hover:from-[#1B0044] hover:via-[#3C0D65] hover:to-[#5A189A]";
 
   const links = (
     <>
@@ -18,7 +18,7 @@ const Navbar = () => {
         smooth={true}
         duration={800}
         offset={-70}
-        activeClass="bg-gradient-to-r from-[#5DFFFF] to-[#AE0CA7]" // ✅ active হলে gradient থাকবে
+        activeClass="bg-gradient-to-r from-[#1B0044] via-[#3C0D65] to-[#5A189A]" // 
         className={`${baseClasses} ${gradientHover}`}
         onClick={() => setMobileOpen(false)}
       >
@@ -31,7 +31,7 @@ const Navbar = () => {
         smooth={true}
         duration={800}
         offset={-70}
-        activeClass="bg-gradient-to-r from-[#5DFFFF] to-[#AE0CA7]"
+        activeClass="bg-gradient-to-r from-[#1B0044] via-[#3C0D65] to-[#5A189A]"
         className={`${baseClasses} ${gradientHover}`}
         onClick={() => setMobileOpen(false)}
       >
@@ -44,7 +44,7 @@ const Navbar = () => {
         smooth={true}
         duration={800}
         offset={-70}
-        activeClass="bg-gradient-to-r from-[#5DFFFF] to-[#AE0CA7]"
+        activeClass="bg-gradient-to-r from-[#1B0044] via-[#3C0D65] to-[#5A189A]"
         className={`${baseClasses} ${gradientHover}`}
         onClick={() => setMobileOpen(false)}
       >
@@ -57,7 +57,7 @@ const Navbar = () => {
         smooth={true}
         duration={800}
         offset={-70}
-        activeClass="bg-gradient-to-r from-[#5DFFFF] to-[#AE0CA7]"
+        activeClass="bg-gradient-to-r from-[#1B0044] via-[#3C0D65] to-[#5A189A]"
         className={`${baseClasses} ${gradientHover}`}
         onClick={() => setMobileOpen(false)}
       >
@@ -70,7 +70,7 @@ const Navbar = () => {
         smooth={true}
         duration={800}
         offset={-70}
-        activeClass="bg-gradient-to-r from-[#5DFFFF] to-[#AE0CA7]"
+        activeClass="bg-gradient-to-r from-[#1B0044] via-[#3C0D65] to-[#5A189A]"
         className={`${baseClasses} ${gradientHover}`}
         onClick={() => setMobileOpen(false)}
       >

@@ -70,7 +70,7 @@ const Footer = () => {
         />
         <motion.button
           type="submit"
-          className="bg-gradient-to-r from-[#5DFFFF] to-[#F72585] py-3 px-6 rounded-lg font-semibold text-lg hover:opacity-90 transition"
+          className="bg-gradient-to-r from-[#1B0044] via-[#3C0D65] to-[#5A189A]  py-3 px-6 rounded-lg font-semibold text-lg hover:opacity-90 transition"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >

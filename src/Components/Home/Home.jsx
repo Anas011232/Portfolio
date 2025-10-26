@@ -6,6 +6,7 @@ import Education from '../Education/Education';
 import Work from '../Work/Work';
 import Contact from '../Contact/Contact';
 import Footer from '../Footer/Footer';
+import Skill from '../../Skill/Skill';
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
             <div className="pt-20 max-w-full px-1 md:px-12 lg:px-1">
                 <Banner />
                 <About></About>
+                <Skill></Skill>
 
                 <Education></Education>
                 <Work></Work>

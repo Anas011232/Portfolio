@@ -9,10 +9,10 @@ const semesters = [
 
 const Education = () => {
   return (
-    <section id="education"  className="min-h-screen mt-13   lg:min-h-[60vh] flex flex-col items-center justify-center px-4 md:px-16 bg-gradient-to-r from-[#1B0044] via-[#3C0D65] to-[#5A189A] text-white">
+    <section id="education"  className="min-h-screen -mt-60 lg:-mt-50  lg:min-h-[60vh] flex flex-col items-center justify-center px-4 md:px-16 bg-gradient-to-r from-[#1B0044] via-[#3C0D65] to-[#5A189A] text-white">
       {/* Heading */}
       <motion.h2
-        className="text-4xl md:text-5xl font-extrabold mb-10 text-center bg-clip-text text-transparent bg-gradient-to-r from-[#5DFFFF] via-[#AE0CA7] to-[#F72585]"
+        className="text-5xl md:text-6xl font-extrabold mb-10 text-center bg-clip-text text-transparent bg-gradient-to-r from-[#5DFFFF] via-[#AE0CA7] to-[#F72585]"
         initial={{ opacity: 0, y: -40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
